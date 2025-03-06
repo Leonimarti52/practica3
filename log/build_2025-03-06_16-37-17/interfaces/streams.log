@@ -1,0 +1,5 @@
+[0.015s] Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+[0.029s] [0mCMake Error: The source directory "/home/leoni/robotica/practica3/src/interfaces" does not exist.
+[0.029s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.029s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.032s] Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16

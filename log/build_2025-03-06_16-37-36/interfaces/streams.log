@@ -1,0 +1,195 @@
+[0.014s] Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.151s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.687s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.699s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.788s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.503s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[19.771s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[20.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.306s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[20.328s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[20.328s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[20.329s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[20.357s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.367s] -- Added test 'lint_cmake' to check CMake code style
+[20.368s] -- Added test 'xmllint' to check XML markup files
+[20.373s] -- Configuring done
+[20.408s] -- Generating done
+[20.420s] -- Build files have been written to: /home/leoni/robotica/practica3/build/interfaces
+[20.447s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c[0m
+[20.457s] [  2%] Built target interfaces__cpp
+[20.463s] [ 12%] Built target interfaces__rosidl_generator_c
+[20.467s] [ 12%] Built target ament_cmake_python_symlink_interfaces
+[20.469s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[20.471s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[20.471s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[20.477s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[20.479s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[20.482s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c[0m
+[20.489s] [ 23%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[20.490s] [ 34%] Built target interfaces__rosidl_typesupport_cpp
+[20.491s] [ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[20.495s] [ 55%] Built target interfaces__rosidl_typesupport_introspection_c
+[20.496s] [ 65%] Built target interfaces__rosidl_typesupport_c
+[20.499s] [ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[20.519s] [ 76%] Built target interfaces
+[20.541s] [ 78%] Built target interfaces__py
+[20.551s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py[0m
+[20.569s] [ 87%] Built target interfaces__rosidl_generator_py
+[20.581s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[20.581s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.581s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[20.596s] [ 95%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[20.596s] [ 95%] Built target interfaces__rosidl_typesupport_c__pyext
+[20.598s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[20.779s] running egg_info
+[20.780s] writing interfaces.egg-info/PKG-INFO
+[20.780s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[20.780s] writing top-level names to interfaces.egg-info/top_level.txt
+[20.783s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[20.783s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[20.808s] [100%] Built target ament_cmake_python_build_interfaces_egg
+[20.820s] Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+[20.831s] Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/practica3/build/interfaces
+[20.842s] -- Install configuration: ""
+[20.843s] -- Execute custom install script
+[20.843s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[20.844s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h
+[20.844s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h
+[20.845s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h
+[20.845s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.h
+[20.846s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.h
+[20.846s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.h
+[20.846s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/num.h
+[20.846s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[20.846s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/sphere.h
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/add_two_ints.h
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__functions.h
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__struct.h
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__type_support.h
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/library_path.sh
+[20.847s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/library_path.dsv
+[20.848s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[20.848s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[20.848s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.848s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[20.849s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp
+[20.849s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp
+[20.849s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp
+[20.850s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp
+[20.850s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__builder.hpp
+[20.850s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.hpp
+[20.850s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__traits.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/num.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/sphere.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/add_two_ints.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__builder.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__struct.hpp
+[20.851s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__traits.hpp
+[20.852s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__type_support.hpp
+[20.852s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[20.852s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.853s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[20.854s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[20.854s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[20.854s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[20.854s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/pythonpath.sh
+[20.854s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[20.855s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[20.855s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.855s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.855s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[20.856s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[20.856s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[20.857s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.857s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[20.857s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.857s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.857s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_num.py
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_num_s.c
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sphere.py
+[20.858s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sphere_s.c
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_add_two_ints.py
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_add_two_ints_s.c
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.859s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Num.idl
+[20.860s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Sphere.idl
+[20.860s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts.idl
+[20.860s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Num.msg
+[20.860s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Sphere.msg
+[20.861s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts.srv
+[20.861s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts_Request.msg
+[20.861s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts_Response.msg
+[20.861s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[20.861s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[20.862s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[20.862s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[20.862s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/path.sh
+[20.862s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/path.dsv
+[20.863s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.bash
+[20.863s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.sh
+[20.863s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.zsh
+[20.863s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.dsv
+[20.863s] -- Symlinking: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/package.dsv
+[20.871s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[20.871s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[20.871s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.871s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.872s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.872s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.872s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.872s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.873s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[20.873s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[20.873s] -- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/package.xml
+[20.873s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[20.873s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[20.874s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[20.874s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[20.874s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[20.874s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[20.875s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[20.906s] Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[20.906s] Compiling '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[20.906s] Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[20.906s] Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[20.911s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[20.911s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[20.912s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.912s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[20.912s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.912s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[20.912s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.913s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.913s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.913s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.913s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[20.913s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[20.914s] -- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[20.916s] Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/practica3/build/interfaces

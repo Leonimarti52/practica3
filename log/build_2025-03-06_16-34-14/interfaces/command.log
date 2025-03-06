@@ -1,0 +1,6 @@
+Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/practica3/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces
+Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/practica3/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces
+Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/practica3/build/interfaces
+Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leoni/robotica/practica3/build/interfaces

@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/leoni/robotica/practica3/src/interfaces:msg/Num.msg",
+    "/home/leoni/robotica/practica3/src/interfaces:msg/Sphere.msg",
+    "/home/leoni/robotica/practica3/src/interfaces:srv/AddTwoInts.srv"
+  ]
+}

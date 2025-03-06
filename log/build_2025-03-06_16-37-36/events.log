@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001168] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.009036] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.009638] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.010522] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leoni/robotica/practica3/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/leoni/robotica/practica3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoni/robotica/practica3/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/practica3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/leoni/robotica/practica3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/327_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/leoni/robotica/practica3/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/practica3/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/leoni/robotica/practica3/install/interfaces:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.035676] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099437] (-) TimerEvent: {}
+[0.144010] (interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.151589] (interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199677] (-) TimerEvent: {}
+[0.300269] (-) TimerEvent: {}
+[0.401085] (-) TimerEvent: {}
+[0.501601] (-) TimerEvent: {}
+[0.602651] (-) TimerEvent: {}
+[0.687335] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.691904] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.699601] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.702790] (-) TimerEvent: {}
+[0.722717] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.743934] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.787396] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.789035] (interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.802828] (-) TimerEvent: {}
+[0.903206] (-) TimerEvent: {}
+[1.003840] (-) TimerEvent: {}
+[1.104452] (-) TimerEvent: {}
+[1.205390] (-) TimerEvent: {}
+[1.306098] (-) TimerEvent: {}
+[1.406787] (-) TimerEvent: {}
+[1.507360] (-) TimerEvent: {}
+[1.607883] (-) TimerEvent: {}
+[1.708376] (-) TimerEvent: {}
+[1.809442] (-) TimerEvent: {}
+[1.910271] (-) TimerEvent: {}
+[2.010898] (-) TimerEvent: {}
+[2.112021] (-) TimerEvent: {}
+[2.213003] (-) TimerEvent: {}
+[2.313957] (-) TimerEvent: {}
+[2.414814] (-) TimerEvent: {}
+[2.515542] (-) TimerEvent: {}
+[2.616110] (-) TimerEvent: {}
+[2.716710] (-) TimerEvent: {}
+[2.817779] (-) TimerEvent: {}
+[2.918366] (-) TimerEvent: {}
+[3.018809] (-) TimerEvent: {}
+[3.119193] (-) TimerEvent: {}
+[3.219983] (-) TimerEvent: {}
+[3.320629] (-) TimerEvent: {}
+[3.421175] (-) TimerEvent: {}
+[3.521621] (-) TimerEvent: {}
+[3.622957] (-) TimerEvent: {}
+[3.723885] (-) TimerEvent: {}
+[3.824305] (-) TimerEvent: {}
+[3.924816] (-) TimerEvent: {}
+[4.025641] (-) TimerEvent: {}
+[4.126064] (-) TimerEvent: {}
+[4.226606] (-) TimerEvent: {}
+[4.327366] (-) TimerEvent: {}
+[4.427886] (-) TimerEvent: {}
+[4.528434] (-) TimerEvent: {}
+[4.629396] (-) TimerEvent: {}
+[4.730839] (-) TimerEvent: {}
+[4.831825] (-) TimerEvent: {}
+[4.932367] (-) TimerEvent: {}
+[5.032817] (-) TimerEvent: {}
+[5.133385] (-) TimerEvent: {}
+[5.233972] (-) TimerEvent: {}
+[5.334498] (-) TimerEvent: {}
+[5.434939] (-) TimerEvent: {}
+[5.535630] (-) TimerEvent: {}
+[5.636264] (-) TimerEvent: {}
+[5.736847] (-) TimerEvent: {}
+[5.837442] (-) TimerEvent: {}
+[5.937915] (-) TimerEvent: {}
+[6.038432] (-) TimerEvent: {}
+[6.138957] (-) TimerEvent: {}
+[6.239728] (-) TimerEvent: {}
+[6.340302] (-) TimerEvent: {}
+[6.440945] (-) TimerEvent: {}
+[6.541412] (-) TimerEvent: {}
+[6.642364] (-) TimerEvent: {}
+[6.743153] (-) TimerEvent: {}
+[6.843492] (-) TimerEvent: {}
+[6.943958] (-) TimerEvent: {}
+[7.044750] (-) TimerEvent: {}
+[7.145339] (-) TimerEvent: {}
+[7.245706] (-) TimerEvent: {}
+[7.346094] (-) TimerEvent: {}
+[7.446675] (-) TimerEvent: {}
+[7.547306] (-) TimerEvent: {}
+[7.647723] (-) TimerEvent: {}
+[7.748323] (-) TimerEvent: {}
+[7.849173] (-) TimerEvent: {}
+[7.950043] (-) TimerEvent: {}
+[8.050854] (-) TimerEvent: {}
+[8.151701] (-) TimerEvent: {}
+[8.252487] (-) TimerEvent: {}
+[8.353377] (-) TimerEvent: {}
+[8.454381] (-) TimerEvent: {}
+[8.554997] (-) TimerEvent: {}
+[8.655860] (-) TimerEvent: {}
+[8.756674] (-) TimerEvent: {}
+[8.857508] (-) TimerEvent: {}
+[8.958365] (-) TimerEvent: {}
+[9.059216] (-) TimerEvent: {}
+[9.159915] (-) TimerEvent: {}
+[9.260416] (-) TimerEvent: {}
+[9.361093] (-) TimerEvent: {}
+[9.462209] (-) TimerEvent: {}
+[9.563229] (-) TimerEvent: {}
+[9.664225] (-) TimerEvent: {}
+[9.764945] (-) TimerEvent: {}
+[9.865811] (-) TimerEvent: {}
+[9.966606] (-) TimerEvent: {}
+[10.067404] (-) TimerEvent: {}
+[10.168000] (-) TimerEvent: {}
+[10.268437] (-) TimerEvent: {}
+[10.368894] (-) TimerEvent: {}
+[10.469256] (-) TimerEvent: {}
+[10.569760] (-) TimerEvent: {}
+[10.670665] (-) TimerEvent: {}
+[10.771751] (-) TimerEvent: {}
+[10.872716] (-) TimerEvent: {}
+[10.973587] (-) TimerEvent: {}
+[11.074471] (-) TimerEvent: {}
+[11.175385] (-) TimerEvent: {}
+[11.276064] (-) TimerEvent: {}
+[11.376589] (-) TimerEvent: {}
+[11.477241] (-) TimerEvent: {}
+[11.577847] (-) TimerEvent: {}
+[11.678422] (-) TimerEvent: {}
+[11.779001] (-) TimerEvent: {}
+[11.879543] (-) TimerEvent: {}
+[11.980188] (-) TimerEvent: {}
+[12.080700] (-) TimerEvent: {}
+[12.181243] (-) TimerEvent: {}
+[12.281866] (-) TimerEvent: {}
+[12.382578] (-) TimerEvent: {}
+[12.483028] (-) TimerEvent: {}
+[12.583575] (-) TimerEvent: {}
+[12.684234] (-) TimerEvent: {}
+[12.784593] (-) TimerEvent: {}
+[12.884979] (-) TimerEvent: {}
+[12.985406] (-) TimerEvent: {}
+[13.086174] (-) TimerEvent: {}
+[13.187553] (-) TimerEvent: {}
+[13.288333] (-) TimerEvent: {}
+[13.388810] (-) TimerEvent: {}
+[13.489256] (-) TimerEvent: {}
+[13.589698] (-) TimerEvent: {}
+[13.690250] (-) TimerEvent: {}
+[13.790900] (-) TimerEvent: {}
+[13.891698] (-) TimerEvent: {}
+[13.992783] (-) TimerEvent: {}
+[14.093746] (-) TimerEvent: {}
+[14.194263] (-) TimerEvent: {}
+[14.295204] (-) TimerEvent: {}
+[14.395883] (-) TimerEvent: {}
+[14.496487] (-) TimerEvent: {}
+[14.596928] (-) TimerEvent: {}
+[14.697384] (-) TimerEvent: {}
+[14.797957] (-) TimerEvent: {}
+[14.898641] (-) TimerEvent: {}
+[14.999509] (-) TimerEvent: {}
+[15.100575] (-) TimerEvent: {}
+[15.201511] (-) TimerEvent: {}
+[15.302106] (-) TimerEvent: {}
+[15.402674] (-) TimerEvent: {}
+[15.503236] (-) TimerEvent: {}
+[15.603673] (-) TimerEvent: {}
+[15.704243] (-) TimerEvent: {}
+[15.804788] (-) TimerEvent: {}
+[15.905415] (-) TimerEvent: {}
+[16.005854] (-) TimerEvent: {}
+[16.106312] (-) TimerEvent: {}
+[16.206723] (-) TimerEvent: {}
+[16.307197] (-) TimerEvent: {}
+[16.407753] (-) TimerEvent: {}
+[16.508412] (-) TimerEvent: {}
+[16.608882] (-) TimerEvent: {}
+[16.709307] (-) TimerEvent: {}
+[16.809955] (-) TimerEvent: {}
+[16.910683] (-) TimerEvent: {}
+[17.011175] (-) TimerEvent: {}
+[17.111871] (-) TimerEvent: {}
+[17.212344] (-) TimerEvent: {}
+[17.312886] (-) TimerEvent: {}
+[17.413346] (-) TimerEvent: {}
+[17.513746] (-) TimerEvent: {}
+[17.614235] (-) TimerEvent: {}
+[17.714961] (-) TimerEvent: {}
+[17.815408] (-) TimerEvent: {}
+[17.915826] (-) TimerEvent: {}
+[18.016230] (-) TimerEvent: {}
+[18.116727] (-) TimerEvent: {}
+[18.217501] (-) TimerEvent: {}
+[18.318325] (-) TimerEvent: {}
+[18.418869] (-) TimerEvent: {}
+[18.519461] (-) TimerEvent: {}
+[18.620226] (-) TimerEvent: {}
+[18.720700] (-) TimerEvent: {}
+[18.821105] (-) TimerEvent: {}
+[18.921790] (-) TimerEvent: {}
+[19.022512] (-) TimerEvent: {}
+[19.123268] (-) TimerEvent: {}
+[19.224292] (-) TimerEvent: {}
+[19.324988] (-) TimerEvent: {}
+[19.425703] (-) TimerEvent: {}
+[19.459125] (interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.503905] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[19.525812] (-) TimerEvent: {}
+[19.626199] (-) TimerEvent: {}
+[19.726677] (-) TimerEvent: {}
+[19.771824] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[19.826823] (-) TimerEvent: {}
+[19.927188] (-) TimerEvent: {}
+[20.027596] (-) TimerEvent: {}
+[20.127894] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.128199] (-) TimerEvent: {}
+[20.228496] (-) TimerEvent: {}
+[20.281558] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.306874] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[20.328577] (-) TimerEvent: {}
+[20.329262] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.329498] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[20.329615] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[20.357564] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.368337] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.369036] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.373977] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.409457] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[20.421177] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/leoni/robotica/practica3/build/interfaces\n'}
+[20.428714] (-) TimerEvent: {}
+[20.448343] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[20.458373] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__cpp\n'}
+[20.463850] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[20.468539] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_interfaces\n'}
+[20.469906] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[20.471569] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.472207] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[20.478471] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[20.479646] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[20.482737] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[20.490008] (interfaces) StdoutLine: {'line': b'[ 23%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[20.490550] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[20.491869] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.495926] (interfaces) StdoutLine: {'line': b'[ 55%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[20.497459] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_c\n'}
+[20.500416] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[20.520103] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces\n'}
+[20.528893] (-) TimerEvent: {}
+[20.541708] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__py\n'}
+[20.552280] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[20.570143] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_generator_py\n'}
+[20.581783] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[20.582147] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[20.582531] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[20.597374] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.597627] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[20.598635] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.629041] (-) TimerEvent: {}
+[20.729532] (-) TimerEvent: {}
+[20.780410] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[20.780837] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[20.781190] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[20.781429] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[20.783846] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[20.784569] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[20.809257] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[20.820568] (interfaces) CommandEnded: {'returncode': 0}
+[20.821817] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[20.829622] (-) TimerEvent: {}
+[20.831681] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leoni/robotica/practica3/build/interfaces'], 'cwd': '/home/leoni/robotica/practica3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leoni/robotica/practica3/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/practica3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/leoni/robotica/practica3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/327_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/leoni/robotica/practica3/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/practica3/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/leoni/robotica/practica3/install/interfaces:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[20.843208] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.844011] (interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.844347] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[20.845195] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__functions.h\n'}
+[20.845493] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.h\n'}
+[20.845642] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.h\n'}
+[20.846047] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__functions.h\n'}
+[20.846689] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.h\n'}
+[20.847143] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.h\n'}
+[20.847257] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/num.h\n'}
+[20.847446] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.847537] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/sphere.h\n'}
+[20.847695] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/add_two_ints.h\n'}
+[20.847760] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__functions.h\n'}
+[20.847826] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__struct.h\n'}
+[20.847905] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[20.848241] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[20.848343] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[20.848866] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[20.849249] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[20.849384] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.849482] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[20.849970] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__builder.hpp\n'}
+[20.850380] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__struct.hpp\n'}
+[20.850500] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__traits.hpp\n'}
+[20.850769] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__type_support.hpp\n'}
+[20.850872] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__builder.hpp\n'}
+[20.851312] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__struct.hpp\n'}
+[20.851530] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__traits.hpp\n'}
+[20.851669] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__type_support.hpp\n'}
+[20.851888] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/num.hpp\n'}
+[20.852145] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.852332] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/sphere.hpp\n'}
+[20.852419] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/add_two_ints.hpp\n'}
+[20.852502] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[20.852585] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[20.852657] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[20.852730] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__type_support.hpp\n'}
+[20.853135] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.853253] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.853762] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.853974] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.854112] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[20.854273] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[20.854416] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.854564] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[20.854904] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.855090] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.855254] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/include/interfaces/interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.855398] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[20.855565] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[20.855898] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.856202] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.856477] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.856547] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.856922] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[20.857320] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.857528] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.857772] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.857921] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.858113] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.858491] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.858603] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[20.858797] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[20.858985] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_num.py\n'}
+[20.859188] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_num_s.c\n'}
+[20.859527] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sphere.py\n'}
+[20.859634] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sphere_s.c\n'}
+[20.859708] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[20.859879] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_add_two_ints.py\n'}
+[20.859961] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_add_two_ints_s.c\n'}
+[20.860110] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.860298] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.860425] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.860488] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Num.idl\n'}
+[20.860585] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Sphere.idl\n'}
+[20.860785] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts.idl\n'}
+[20.860905] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Num.msg\n'}
+[20.861141] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/msg/Sphere.msg\n'}
+[20.861405] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts.srv\n'}
+[20.861880] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts_Request.msg\n'}
+[20.861954] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/srv/AddTwoInts_Response.msg\n'}
+[20.862124] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[20.862443] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[20.862800] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[20.862990] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[20.863159] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/path.sh\n'}
+[20.863353] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[20.863669] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.bash\n'}
+[20.863740] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.sh\n'}
+[20.863791] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[20.863850] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[20.863925] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/package.dsv\n'}
+[20.871563] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[20.871938] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.872073] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.872346] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.872761] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.872960] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.873329] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.873460] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.873688] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[20.874071] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[20.874243] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/package.xml\n'}
+[20.874540] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[20.874646] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.874903] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.875174] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.875390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[20.875551] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.875790] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[20.906841] (interfaces) StdoutLine: {'line': b"Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[20.907050] (interfaces) StdoutLine: {'line': b"Compiling '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[20.907134] (interfaces) StdoutLine: {'line': b"Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[20.907196] (interfaces) StdoutLine: {'line': b"Listing '/home/leoni/robotica/practica3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[20.911864] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[20.912292] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.912720] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.912944] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.913134] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.913308] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.913486] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.913779] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.914023] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.914211] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.914394] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.914552] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.914732] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.914917] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.915200] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.915268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.915322] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.915379] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leoni/robotica/practica3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.916534] (interfaces) CommandEnded: {'returncode': 0}
+[20.929749] (-) TimerEvent: {}
+[20.938686] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[20.940157] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/leoni/robotica/practica3/build/interfaces/ament_cmake_environment_hooks/local_setup.zsh

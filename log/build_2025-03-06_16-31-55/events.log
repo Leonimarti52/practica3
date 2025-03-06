@@ -1,0 +1,493 @@
+[0.000000] (-) TimerEvent: {}
+[0.000674] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000747] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.009810] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.011562] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/leoni/robotica/practica3/src/interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces'], 'cwd': '/home/leoni/robotica/practica3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/practica3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/327_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/practica3/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098819] (-) TimerEvent: {}
+[0.199592] (-) TimerEvent: {}
+[0.300257] (-) TimerEvent: {}
+[0.400938] (-) TimerEvent: {}
+[0.502063] (-) TimerEvent: {}
+[0.603128] (-) TimerEvent: {}
+[0.664607] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703358] (-) TimerEvent: {}
+[0.804059] (-) TimerEvent: {}
+[0.904884] (-) TimerEvent: {}
+[1.006089] (-) TimerEvent: {}
+[1.106709] (-) TimerEvent: {}
+[1.207126] (-) TimerEvent: {}
+[1.307995] (-) TimerEvent: {}
+[1.408896] (-) TimerEvent: {}
+[1.510010] (-) TimerEvent: {}
+[1.610476] (-) TimerEvent: {}
+[1.710907] (-) TimerEvent: {}
+[1.811546] (-) TimerEvent: {}
+[1.911995] (-) TimerEvent: {}
+[2.012641] (-) TimerEvent: {}
+[2.113096] (-) TimerEvent: {}
+[2.213614] (-) TimerEvent: {}
+[2.314407] (-) TimerEvent: {}
+[2.415151] (-) TimerEvent: {}
+[2.515743] (-) TimerEvent: {}
+[2.554709] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.615858] (-) TimerEvent: {}
+[2.716576] (-) TimerEvent: {}
+[2.847649] (-) TimerEvent: {}
+[2.948379] (-) TimerEvent: {}
+[3.049218] (-) TimerEvent: {}
+[3.149904] (-) TimerEvent: {}
+[3.250724] (-) TimerEvent: {}
+[3.351635] (-) TimerEvent: {}
+[3.452506] (-) TimerEvent: {}
+[3.553643] (-) TimerEvent: {}
+[3.654175] (-) TimerEvent: {}
+[3.754569] (-) TimerEvent: {}
+[3.855200] (-) TimerEvent: {}
+[3.955974] (-) TimerEvent: {}
+[4.029720] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.056231] (-) TimerEvent: {}
+[4.156973] (-) TimerEvent: {}
+[4.258416] (-) TimerEvent: {}
+[4.359465] (-) TimerEvent: {}
+[4.460103] (-) TimerEvent: {}
+[4.561207] (-) TimerEvent: {}
+[4.644431] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.656448] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.661411] (-) TimerEvent: {}
+[4.692600] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.694440] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.701576] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.761539] (-) TimerEvent: {}
+[4.861871] (-) TimerEvent: {}
+[4.962616] (-) TimerEvent: {}
+[5.063238] (-) TimerEvent: {}
+[5.163716] (-) TimerEvent: {}
+[5.249006] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.263851] (-) TimerEvent: {}
+[5.266551] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.268553] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.270212] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.286424] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.364064] (-) TimerEvent: {}
+[5.464603] (-) TimerEvent: {}
+[5.544705] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.564837] (-) TimerEvent: {}
+[5.665341] (-) TimerEvent: {}
+[5.686385] (interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.753594] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.765510] (-) TimerEvent: {}
+[5.866155] (-) TimerEvent: {}
+[5.967074] (-) TimerEvent: {}
+[6.067893] (-) TimerEvent: {}
+[6.168702] (-) TimerEvent: {}
+[6.269206] (-) TimerEvent: {}
+[6.369958] (-) TimerEvent: {}
+[6.470764] (-) TimerEvent: {}
+[6.511880] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.523934] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.548509] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.570930] (-) TimerEvent: {}
+[6.580157] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.616429] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.671313] (-) TimerEvent: {}
+[6.690049] (interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.771481] (-) TimerEvent: {}
+[6.788463] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.798971] (interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.871665] (-) TimerEvent: {}
+[6.972117] (-) TimerEvent: {}
+[7.072725] (-) TimerEvent: {}
+[7.173477] (-) TimerEvent: {}
+[7.274306] (-) TimerEvent: {}
+[7.375035] (-) TimerEvent: {}
+[7.475646] (-) TimerEvent: {}
+[7.576403] (-) TimerEvent: {}
+[7.677249] (-) TimerEvent: {}
+[7.777905] (-) TimerEvent: {}
+[7.878528] (-) TimerEvent: {}
+[7.979270] (-) TimerEvent: {}
+[8.079925] (-) TimerEvent: {}
+[8.180481] (-) TimerEvent: {}
+[8.280992] (-) TimerEvent: {}
+[8.381516] (-) TimerEvent: {}
+[8.482332] (-) TimerEvent: {}
+[8.582911] (-) TimerEvent: {}
+[8.683603] (-) TimerEvent: {}
+[8.784388] (-) TimerEvent: {}
+[8.885015] (-) TimerEvent: {}
+[8.985495] (-) TimerEvent: {}
+[9.086001] (-) TimerEvent: {}
+[9.186486] (-) TimerEvent: {}
+[9.286936] (-) TimerEvent: {}
+[9.387512] (-) TimerEvent: {}
+[9.487999] (-) TimerEvent: {}
+[9.588524] (-) TimerEvent: {}
+[9.689265] (-) TimerEvent: {}
+[9.790304] (-) TimerEvent: {}
+[9.890981] (-) TimerEvent: {}
+[9.991328] (-) TimerEvent: {}
+[10.091826] (-) TimerEvent: {}
+[10.192807] (-) TimerEvent: {}
+[10.293915] (-) TimerEvent: {}
+[10.394786] (-) TimerEvent: {}
+[10.495560] (-) TimerEvent: {}
+[10.596317] (-) TimerEvent: {}
+[10.697014] (-) TimerEvent: {}
+[10.797707] (-) TimerEvent: {}
+[10.898357] (-) TimerEvent: {}
+[10.999157] (-) TimerEvent: {}
+[11.100016] (-) TimerEvent: {}
+[11.200458] (-) TimerEvent: {}
+[11.301257] (-) TimerEvent: {}
+[11.402027] (-) TimerEvent: {}
+[11.502684] (-) TimerEvent: {}
+[11.603475] (-) TimerEvent: {}
+[11.704527] (-) TimerEvent: {}
+[11.805356] (-) TimerEvent: {}
+[11.906120] (-) TimerEvent: {}
+[12.006889] (-) TimerEvent: {}
+[12.107554] (-) TimerEvent: {}
+[12.208175] (-) TimerEvent: {}
+[12.275628] (interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.308440] (-) TimerEvent: {}
+[12.409172] (-) TimerEvent: {}
+[12.510017] (-) TimerEvent: {}
+[12.610606] (-) TimerEvent: {}
+[12.711173] (-) TimerEvent: {}
+[12.811980] (-) TimerEvent: {}
+[12.913001] (-) TimerEvent: {}
+[13.013691] (-) TimerEvent: {}
+[13.114237] (-) TimerEvent: {}
+[13.215256] (-) TimerEvent: {}
+[13.316194] (-) TimerEvent: {}
+[13.417052] (-) TimerEvent: {}
+[13.517797] (-) TimerEvent: {}
+[13.618579] (-) TimerEvent: {}
+[13.719026] (-) TimerEvent: {}
+[13.819602] (-) TimerEvent: {}
+[13.920155] (-) TimerEvent: {}
+[14.020959] (-) TimerEvent: {}
+[14.121470] (-) TimerEvent: {}
+[14.222023] (-) TimerEvent: {}
+[14.322934] (-) TimerEvent: {}
+[14.423681] (-) TimerEvent: {}
+[14.524228] (-) TimerEvent: {}
+[14.624920] (-) TimerEvent: {}
+[14.725868] (-) TimerEvent: {}
+[14.826871] (-) TimerEvent: {}
+[14.927664] (-) TimerEvent: {}
+[15.028409] (-) TimerEvent: {}
+[15.129291] (-) TimerEvent: {}
+[15.230203] (-) TimerEvent: {}
+[15.331136] (-) TimerEvent: {}
+[15.432156] (-) TimerEvent: {}
+[15.533101] (-) TimerEvent: {}
+[15.633881] (-) TimerEvent: {}
+[15.734508] (-) TimerEvent: {}
+[15.835202] (-) TimerEvent: {}
+[15.935963] (-) TimerEvent: {}
+[16.036800] (-) TimerEvent: {}
+[16.137592] (-) TimerEvent: {}
+[16.238390] (-) TimerEvent: {}
+[16.338986] (-) TimerEvent: {}
+[16.439533] (-) TimerEvent: {}
+[16.540443] (-) TimerEvent: {}
+[16.641189] (-) TimerEvent: {}
+[16.741716] (-) TimerEvent: {}
+[16.842328] (-) TimerEvent: {}
+[16.943251] (-) TimerEvent: {}
+[17.043938] (-) TimerEvent: {}
+[17.144723] (-) TimerEvent: {}
+[17.245298] (-) TimerEvent: {}
+[17.345841] (-) TimerEvent: {}
+[17.446589] (-) TimerEvent: {}
+[17.547242] (-) TimerEvent: {}
+[17.647709] (-) TimerEvent: {}
+[17.748307] (-) TimerEvent: {}
+[17.855376] (-) TimerEvent: {}
+[17.956357] (-) TimerEvent: {}
+[18.057122] (-) TimerEvent: {}
+[18.158023] (-) TimerEvent: {}
+[18.258779] (-) TimerEvent: {}
+[18.359290] (-) TimerEvent: {}
+[18.460087] (-) TimerEvent: {}
+[18.560843] (-) TimerEvent: {}
+[18.661482] (-) TimerEvent: {}
+[18.762226] (-) TimerEvent: {}
+[18.773411] (interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.862462] (-) TimerEvent: {}
+[18.963199] (-) TimerEvent: {}
+[19.063995] (-) TimerEvent: {}
+[19.164703] (-) TimerEvent: {}
+[19.265201] (-) TimerEvent: {}
+[19.365749] (-) TimerEvent: {}
+[19.466378] (-) TimerEvent: {}
+[19.566954] (-) TimerEvent: {}
+[19.667645] (-) TimerEvent: {}
+[19.768504] (-) TimerEvent: {}
+[19.869571] (-) TimerEvent: {}
+[19.970115] (-) TimerEvent: {}
+[20.070789] (-) TimerEvent: {}
+[20.171702] (-) TimerEvent: {}
+[20.272379] (-) TimerEvent: {}
+[20.372767] (-) TimerEvent: {}
+[20.473386] (-) TimerEvent: {}
+[20.574000] (-) TimerEvent: {}
+[20.674448] (-) TimerEvent: {}
+[20.775280] (-) TimerEvent: {}
+[20.876505] (-) TimerEvent: {}
+[20.977303] (-) TimerEvent: {}
+[21.077781] (-) TimerEvent: {}
+[21.178652] (-) TimerEvent: {}
+[21.279447] (-) TimerEvent: {}
+[21.380336] (-) TimerEvent: {}
+[21.481216] (-) TimerEvent: {}
+[21.582372] (-) TimerEvent: {}
+[21.685200] (-) TimerEvent: {}
+[21.785946] (-) TimerEvent: {}
+[21.886594] (-) TimerEvent: {}
+[21.987115] (-) TimerEvent: {}
+[22.087557] (-) TimerEvent: {}
+[22.188093] (-) TimerEvent: {}
+[22.288607] (-) TimerEvent: {}
+[22.389290] (-) TimerEvent: {}
+[22.489785] (-) TimerEvent: {}
+[22.590751] (-) TimerEvent: {}
+[22.691346] (-) TimerEvent: {}
+[22.792600] (-) TimerEvent: {}
+[22.894060] (-) TimerEvent: {}
+[22.995084] (-) TimerEvent: {}
+[23.096072] (-) TimerEvent: {}
+[23.196777] (-) TimerEvent: {}
+[23.297672] (-) TimerEvent: {}
+[23.398371] (-) TimerEvent: {}
+[23.499161] (-) TimerEvent: {}
+[23.599982] (-) TimerEvent: {}
+[23.700989] (-) TimerEvent: {}
+[23.801810] (-) TimerEvent: {}
+[23.902525] (-) TimerEvent: {}
+[24.003244] (-) TimerEvent: {}
+[24.104047] (-) TimerEvent: {}
+[24.204664] (-) TimerEvent: {}
+[24.305330] (-) TimerEvent: {}
+[24.406126] (-) TimerEvent: {}
+[24.506731] (-) TimerEvent: {}
+[24.607823] (-) TimerEvent: {}
+[24.708631] (-) TimerEvent: {}
+[24.809450] (-) TimerEvent: {}
+[24.910275] (-) TimerEvent: {}
+[25.011477] (-) TimerEvent: {}
+[25.111981] (-) TimerEvent: {}
+[25.212816] (-) TimerEvent: {}
+[25.314022] (-) TimerEvent: {}
+[25.414692] (-) TimerEvent: {}
+[25.515512] (-) TimerEvent: {}
+[25.616488] (-) TimerEvent: {}
+[25.717851] (-) TimerEvent: {}
+[25.818529] (-) TimerEvent: {}
+[25.919330] (-) TimerEvent: {}
+[26.020213] (-) TimerEvent: {}
+[26.120871] (-) TimerEvent: {}
+[26.221972] (-) TimerEvent: {}
+[26.323159] (-) TimerEvent: {}
+[26.424019] (-) TimerEvent: {}
+[26.524489] (-) TimerEvent: {}
+[26.625190] (-) TimerEvent: {}
+[26.726001] (-) TimerEvent: {}
+[26.826785] (-) TimerEvent: {}
+[26.927870] (-) TimerEvent: {}
+[27.028720] (-) TimerEvent: {}
+[27.129486] (-) TimerEvent: {}
+[27.230303] (-) TimerEvent: {}
+[27.331273] (-) TimerEvent: {}
+[27.432028] (-) TimerEvent: {}
+[27.533116] (-) TimerEvent: {}
+[27.633846] (-) TimerEvent: {}
+[27.734625] (-) TimerEvent: {}
+[27.863260] (-) TimerEvent: {}
+[27.964268] (-) TimerEvent: {}
+[28.065166] (-) TimerEvent: {}
+[28.165921] (-) TimerEvent: {}
+[28.266979] (-) TimerEvent: {}
+[28.367630] (-) TimerEvent: {}
+[28.468365] (-) TimerEvent: {}
+[28.569066] (-) TimerEvent: {}
+[28.669736] (-) TimerEvent: {}
+[28.770412] (-) TimerEvent: {}
+[28.871336] (-) TimerEvent: {}
+[28.972363] (-) TimerEvent: {}
+[29.073504] (-) TimerEvent: {}
+[29.174158] (-) TimerEvent: {}
+[29.274997] (-) TimerEvent: {}
+[29.375648] (-) TimerEvent: {}
+[29.476907] (-) TimerEvent: {}
+[29.577577] (-) TimerEvent: {}
+[29.678371] (-) TimerEvent: {}
+[29.779043] (-) TimerEvent: {}
+[29.879724] (-) TimerEvent: {}
+[29.980466] (-) TimerEvent: {}
+[30.081364] (-) TimerEvent: {}
+[30.182279] (-) TimerEvent: {}
+[30.283136] (-) TimerEvent: {}
+[30.377399] (interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[30.383345] (-) TimerEvent: {}
+[30.433837] (interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[30.483477] (-) TimerEvent: {}
+[30.585182] (-) TimerEvent: {}
+[30.685629] (-) TimerEvent: {}
+[30.786574] (-) TimerEvent: {}
+[30.887507] (-) TimerEvent: {}
+[30.889832] (interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[30.890407] (interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[30.987823] (-) TimerEvent: {}
+[31.088628] (-) TimerEvent: {}
+[31.189481] (-) TimerEvent: {}
+[31.290218] (-) TimerEvent: {}
+[31.390956] (-) TimerEvent: {}
+[31.401791] (interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[31.403443] (interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[31.491269] (-) TimerEvent: {}
+[31.591931] (-) TimerEvent: {}
+[31.596621] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[31.692125] (-) TimerEvent: {}
+[31.792682] (-) TimerEvent: {}
+[31.893233] (-) TimerEvent: {}
+[31.993907] (-) TimerEvent: {}
+[32.094382] (-) TimerEvent: {}
+[32.167972] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[32.194607] (-) TimerEvent: {}
+[32.295426] (-) TimerEvent: {}
+[32.395787] (-) TimerEvent: {}
+[32.496212] (-) TimerEvent: {}
+[32.596761] (-) TimerEvent: {}
+[32.689430] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.696855] (-) TimerEvent: {}
+[32.797189] (-) TimerEvent: {}
+[32.897673] (-) TimerEvent: {}
+[32.932180] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.997861] (-) TimerEvent: {}
+[33.098466] (-) TimerEvent: {}
+[33.199138] (-) TimerEvent: {}
+[33.300104] (-) TimerEvent: {}
+[33.400949] (-) TimerEvent: {}
+[33.449469] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[33.490659] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[33.501154] (-) TimerEvent: {}
+[33.601908] (-) TimerEvent: {}
+[33.702634] (-) TimerEvent: {}
+[33.803189] (-) TimerEvent: {}
+[33.904031] (-) TimerEvent: {}
+[34.004732] (-) TimerEvent: {}
+[34.105542] (-) TimerEvent: {}
+[34.206423] (-) TimerEvent: {}
+[34.307417] (-) TimerEvent: {}
+[34.408226] (-) TimerEvent: {}
+[34.508943] (-) TimerEvent: {}
+[34.610051] (-) TimerEvent: {}
+[34.710696] (-) TimerEvent: {}
+[34.811091] (-) TimerEvent: {}
+[34.911913] (-) TimerEvent: {}
+[34.915889] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[34.916636] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.916994] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[34.917296] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[34.970217] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[35.012429] (-) TimerEvent: {}
+[35.113539] (-) TimerEvent: {}
+[35.214509] (-) TimerEvent: {}
+[35.315130] (-) TimerEvent: {}
+[35.363852] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[35.415361] (-) TimerEvent: {}
+[35.462030] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[35.465461] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[35.469457] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[35.515471] (-) TimerEvent: {}
+[35.517004] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[35.527222] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/leoni/robotica/practica3/build/interfaces\n'}
+[35.540726] (interfaces) CommandEnded: {'returncode': 0}
+[35.542742] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[35.542833] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leoni/robotica/practica3/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/leoni/robotica/practica3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/practica3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/327_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/practica3/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[35.585686] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[35.597817] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[35.602859] (interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_interfaces\n'}
+[35.615780] (-) TimerEvent: {}
+[35.716143] (-) TimerEvent: {}
+[35.816500] (-) TimerEvent: {}
+[35.916805] (-) TimerEvent: {}
+[36.017212] (-) TimerEvent: {}
+[36.045168] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[36.056136] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[36.056823] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[36.057227] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[36.063299] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[36.063558] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[36.065525] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[36.091007] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__functions.h:19\x1b[m\x1b[K,\n'}
+[36.091253] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c:4\x1b[m\x1b[K:\n'}
+[36.091375] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msg/msg/detail/point__struct.h: No such file or directory\n'}
+[36.091462] (interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"geometry_msg/msg/detail/point__struct.h"\x1b[m\x1b[K\n'}
+[36.091531] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.091614] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[36.092024] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:211: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o] Error 1\n'}
+[36.092179] (interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[36.117322] (-) TimerEvent: {}
+[36.160275] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[36.160572] (interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[36.194565] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[36.195585] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[36.196704] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[36.197348] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[36.198122] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[36.198500] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[36.202796] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[36.203662] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[36.217479] (-) TimerEvent: {}
+[36.233097] (interfaces) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[36.317577] (-) TimerEvent: {}
+[36.418123] (-) TimerEvent: {}
+[36.516844] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[36.518437] (-) TimerEvent: {}
+[36.519481] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[36.523467] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[36.618663] (-) TimerEvent: {}
+[36.662519] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[36.663658] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[36.665127] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[36.718866] (-) TimerEvent: {}
+[36.719703] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[36.720330] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[36.720610] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[36.752771] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[36.753050] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory\n'}
+[36.753186] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msg/msg/detail/point__struct.hpp"\x1b[m\x1b[K\n'}
+[36.753259] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.753322] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[36.754469] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make:168: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o] Error 1\n'}
+[36.754644] (interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[36.783763] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[36.784052] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory\n'}
+[36.784184] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msg/msg/detail/point__struct.hpp"\x1b[m\x1b[K\n'}
+[36.784284] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.784377] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[36.786304] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:179: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o] Error 1\n'}
+[36.786502] (interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[36.805732] (interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[36.806030] (interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[36.806107] (interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory\n'}
+[36.806188] (interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msg/msg/detail/point__struct.hpp"\x1b[m\x1b[K\n'}
+[36.806253] (interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.806314] (interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[36.807260] (interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:179: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o] Error 1\n'}
+[36.807423] (interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[36.818958] (-) TimerEvent: {}
+[36.919366] (-) TimerEvent: {}
+[37.019903] (-) TimerEvent: {}
+[37.097991] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[37.120109] (-) TimerEvent: {}
+[37.198809] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[37.220199] (-) TimerEvent: {}
+[37.234962] (interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[37.235398] (interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[37.237707] (interfaces) CommandEnded: {'returncode': 2}
+[37.258399] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 2}
+[37.269219] (-) EventReactorShutdown: {}

@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000438] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001190] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.035216] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.037019] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/leoni/robotica/practica3/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces'], 'cwd': '/home/leoni/robotica/practica3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoni'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leoni'), ('OLDPWD', '/home/leoni/robotica/practica3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leoni'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/327_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Users/leoni/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/leoni/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/leoni/robotica/practica3/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060276] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.096150] (-) TimerEvent: {}
+[0.193241] (interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.196331] (-) TimerEvent: {}
+[0.200221] (interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.296528] (-) TimerEvent: {}
+[0.397203] (-) TimerEvent: {}
+[0.497963] (-) TimerEvent: {}
+[0.598612] (-) TimerEvent: {}
+[0.699501] (-) TimerEvent: {}
+[0.770614] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.775393] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.789995] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.799677] (-) TimerEvent: {}
+[0.809447] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.827165] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.895401] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.897265] (interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.899820] (-) TimerEvent: {}
+[1.000481] (-) TimerEvent: {}
+[1.101136] (-) TimerEvent: {}
+[1.201818] (-) TimerEvent: {}
+[1.302587] (-) TimerEvent: {}
+[1.403253] (-) TimerEvent: {}
+[1.503855] (-) TimerEvent: {}
+[1.604519] (-) TimerEvent: {}
+[1.705231] (-) TimerEvent: {}
+[1.805966] (-) TimerEvent: {}
+[1.906843] (-) TimerEvent: {}
+[2.007673] (-) TimerEvent: {}
+[2.108457] (-) TimerEvent: {}
+[2.209120] (-) TimerEvent: {}
+[2.309562] (-) TimerEvent: {}
+[2.410119] (-) TimerEvent: {}
+[2.510619] (-) TimerEvent: {}
+[2.611220] (-) TimerEvent: {}
+[2.712034] (-) TimerEvent: {}
+[2.812732] (-) TimerEvent: {}
+[2.913213] (-) TimerEvent: {}
+[3.013894] (-) TimerEvent: {}
+[3.114493] (-) TimerEvent: {}
+[3.215107] (-) TimerEvent: {}
+[3.315735] (-) TimerEvent: {}
+[3.416543] (-) TimerEvent: {}
+[3.517325] (-) TimerEvent: {}
+[3.618120] (-) TimerEvent: {}
+[3.718656] (-) TimerEvent: {}
+[3.819118] (-) TimerEvent: {}
+[3.919870] (-) TimerEvent: {}
+[4.020933] (-) TimerEvent: {}
+[4.121450] (-) TimerEvent: {}
+[4.221901] (-) TimerEvent: {}
+[4.322657] (-) TimerEvent: {}
+[4.423480] (-) TimerEvent: {}
+[4.524560] (-) TimerEvent: {}
+[4.625543] (-) TimerEvent: {}
+[4.726402] (-) TimerEvent: {}
+[4.827099] (-) TimerEvent: {}
+[4.927831] (-) TimerEvent: {}
+[5.028751] (-) TimerEvent: {}
+[5.129539] (-) TimerEvent: {}
+[5.230050] (-) TimerEvent: {}
+[5.331046] (-) TimerEvent: {}
+[5.431757] (-) TimerEvent: {}
+[5.532809] (-) TimerEvent: {}
+[5.633746] (-) TimerEvent: {}
+[5.734766] (-) TimerEvent: {}
+[5.835736] (-) TimerEvent: {}
+[5.936514] (-) TimerEvent: {}
+[6.037432] (-) TimerEvent: {}
+[6.138443] (-) TimerEvent: {}
+[6.239495] (-) TimerEvent: {}
+[6.340460] (-) TimerEvent: {}
+[6.441619] (-) TimerEvent: {}
+[6.542480] (-) TimerEvent: {}
+[6.643222] (-) TimerEvent: {}
+[6.743989] (-) TimerEvent: {}
+[6.844648] (-) TimerEvent: {}
+[6.945004] (-) TimerEvent: {}
+[7.045622] (-) TimerEvent: {}
+[7.146644] (-) TimerEvent: {}
+[7.247469] (-) TimerEvent: {}
+[7.348179] (-) TimerEvent: {}
+[7.448712] (-) TimerEvent: {}
+[7.549184] (-) TimerEvent: {}
+[7.649793] (-) TimerEvent: {}
+[7.750807] (-) TimerEvent: {}
+[7.851667] (-) TimerEvent: {}
+[7.952406] (-) TimerEvent: {}
+[8.053264] (-) TimerEvent: {}
+[8.153855] (-) TimerEvent: {}
+[8.254496] (-) TimerEvent: {}
+[8.355166] (-) TimerEvent: {}
+[8.455577] (-) TimerEvent: {}
+[8.556151] (-) TimerEvent: {}
+[8.656908] (-) TimerEvent: {}
+[8.757704] (-) TimerEvent: {}
+[8.860206] (-) TimerEvent: {}
+[8.960784] (-) TimerEvent: {}
+[9.061609] (-) TimerEvent: {}
+[9.162339] (-) TimerEvent: {}
+[9.262854] (-) TimerEvent: {}
+[9.363772] (-) TimerEvent: {}
+[9.464533] (-) TimerEvent: {}
+[9.565194] (-) TimerEvent: {}
+[9.665880] (-) TimerEvent: {}
+[9.766440] (-) TimerEvent: {}
+[9.867111] (-) TimerEvent: {}
+[9.967792] (-) TimerEvent: {}
+[10.068669] (-) TimerEvent: {}
+[10.170937] (-) TimerEvent: {}
+[10.271624] (-) TimerEvent: {}
+[10.372281] (-) TimerEvent: {}
+[10.473041] (-) TimerEvent: {}
+[10.574402] (-) TimerEvent: {}
+[10.675414] (-) TimerEvent: {}
+[10.776461] (-) TimerEvent: {}
+[10.877589] (-) TimerEvent: {}
+[10.978457] (-) TimerEvent: {}
+[11.079008] (-) TimerEvent: {}
+[11.179646] (-) TimerEvent: {}
+[11.280375] (-) TimerEvent: {}
+[11.381118] (-) TimerEvent: {}
+[11.482015] (-) TimerEvent: {}
+[11.582730] (-) TimerEvent: {}
+[11.683444] (-) TimerEvent: {}
+[11.784264] (-) TimerEvent: {}
+[11.885200] (-) TimerEvent: {}
+[11.985941] (-) TimerEvent: {}
+[12.086461] (-) TimerEvent: {}
+[12.187033] (-) TimerEvent: {}
+[12.287847] (-) TimerEvent: {}
+[12.388754] (-) TimerEvent: {}
+[12.489720] (-) TimerEvent: {}
+[12.590660] (-) TimerEvent: {}
+[12.691742] (-) TimerEvent: {}
+[12.792711] (-) TimerEvent: {}
+[12.893709] (-) TimerEvent: {}
+[12.994559] (-) TimerEvent: {}
+[13.095149] (-) TimerEvent: {}
+[13.195659] (-) TimerEvent: {}
+[13.296403] (-) TimerEvent: {}
+[13.397512] (-) TimerEvent: {}
+[13.498449] (-) TimerEvent: {}
+[13.599401] (-) TimerEvent: {}
+[13.700071] (-) TimerEvent: {}
+[13.800834] (-) TimerEvent: {}
+[13.901297] (-) TimerEvent: {}
+[14.001965] (-) TimerEvent: {}
+[14.102366] (-) TimerEvent: {}
+[14.202731] (-) TimerEvent: {}
+[14.303122] (-) TimerEvent: {}
+[14.403582] (-) TimerEvent: {}
+[14.504108] (-) TimerEvent: {}
+[14.604626] (-) TimerEvent: {}
+[14.705163] (-) TimerEvent: {}
+[14.805801] (-) TimerEvent: {}
+[14.906733] (-) TimerEvent: {}
+[15.007426] (-) TimerEvent: {}
+[15.107835] (-) TimerEvent: {}
+[15.208325] (-) TimerEvent: {}
+[15.308865] (-) TimerEvent: {}
+[15.409399] (-) TimerEvent: {}
+[15.509995] (-) TimerEvent: {}
+[15.611230] (-) TimerEvent: {}
+[15.711698] (-) TimerEvent: {}
+[15.812304] (-) TimerEvent: {}
+[15.912917] (-) TimerEvent: {}
+[16.013265] (-) TimerEvent: {}
+[16.113632] (-) TimerEvent: {}
+[16.214089] (-) TimerEvent: {}
+[16.314593] (-) TimerEvent: {}
+[16.415260] (-) TimerEvent: {}
+[16.516287] (-) TimerEvent: {}
+[16.617125] (-) TimerEvent: {}
+[16.718039] (-) TimerEvent: {}
+[16.818944] (-) TimerEvent: {}
+[16.919547] (-) TimerEvent: {}
+[17.020241] (-) TimerEvent: {}
+[17.121054] (-) TimerEvent: {}
+[17.221562] (-) TimerEvent: {}
+[17.322147] (-) TimerEvent: {}
+[17.423074] (-) TimerEvent: {}
+[17.523839] (-) TimerEvent: {}
+[17.624489] (-) TimerEvent: {}
+[17.726667] (-) TimerEvent: {}
+[17.827524] (-) TimerEvent: {}
+[17.928132] (-) TimerEvent: {}
+[18.028875] (-) TimerEvent: {}
+[18.130256] (-) TimerEvent: {}
+[18.231159] (-) TimerEvent: {}
+[18.332047] (-) TimerEvent: {}
+[18.432827] (-) TimerEvent: {}
+[18.533335] (-) TimerEvent: {}
+[18.633764] (-) TimerEvent: {}
+[18.734214] (-) TimerEvent: {}
+[18.834620] (-) TimerEvent: {}
+[18.935032] (-) TimerEvent: {}
+[19.035546] (-) TimerEvent: {}
+[19.136011] (-) TimerEvent: {}
+[19.236806] (-) TimerEvent: {}
+[19.337413] (-) TimerEvent: {}
+[19.437875] (-) TimerEvent: {}
+[19.538334] (-) TimerEvent: {}
+[19.639151] (-) TimerEvent: {}
+[19.740138] (-) TimerEvent: {}
+[19.841084] (-) TimerEvent: {}
+[19.941959] (-) TimerEvent: {}
+[20.042780] (-) TimerEvent: {}
+[20.143551] (-) TimerEvent: {}
+[20.244732] (-) TimerEvent: {}
+[20.345573] (-) TimerEvent: {}
+[20.446226] (-) TimerEvent: {}
+[20.547167] (-) TimerEvent: {}
+[20.647977] (-) TimerEvent: {}
+[20.748678] (-) TimerEvent: {}
+[20.849474] (-) TimerEvent: {}
+[20.950339] (-) TimerEvent: {}
+[21.051652] (-) TimerEvent: {}
+[21.152515] (-) TimerEvent: {}
+[21.253052] (-) TimerEvent: {}
+[21.353434] (-) TimerEvent: {}
+[21.453813] (-) TimerEvent: {}
+[21.502784] (interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[21.554083] (-) TimerEvent: {}
+[21.644021] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[21.654162] (-) TimerEvent: {}
+[21.754664] (-) TimerEvent: {}
+[21.789989] (interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):\n'}
+[21.790294] (interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed dependency 'geometry_msgs' has not\n"}
+[21.790525] (interfaces) StderrLine: {'line': b'  been found before using find_package()\n'}
+[21.790873] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.791129] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[21.791223] (interfaces) StderrLine: {'line': b'\n'}
+[21.791304] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[21.791384] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[21.791474] (interfaces) StdoutLine: {'line': b'See also "/home/leoni/robotica/practica3/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[21.800032] (interfaces) CommandEnded: {'returncode': 1}
+[21.811388] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[21.821968] (-) EventReactorShutdown: {}

@@ -1,0 +1,117 @@
+[0.012s] Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/practica3/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces
+[0.664s] -- The C compiler identification is GNU 11.4.0
+[2.554s] -- The CXX compiler identification is GNU 11.4.0
+[4.029s] -- Detecting C compiler ABI info
+[4.644s] -- Detecting C compiler ABI info - done
+[4.656s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.692s] -- Detecting C compile features
+[4.694s] -- Detecting C compile features - done
+[4.701s] -- Detecting CXX compiler ABI info
+[5.248s] -- Detecting CXX compiler ABI info - done
+[5.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.268s] -- Detecting CXX compile features
+[5.270s] -- Detecting CXX compile features - done
+[5.286s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.544s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.753s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.511s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.523s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.548s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.689s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.788s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.799s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.275s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.773s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.433s] -- Looking for pthread.h
+[30.889s] -- Looking for pthread.h - found
+[30.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[31.403s] -- Found Threads: TRUE  
+[31.596s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[32.168s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[32.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33.449s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[33.490s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[34.916s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[34.916s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[34.916s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[34.917s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[34.970s] -- Found PythonExtra: .so  
+[35.363s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[35.461s] -- Added test 'lint_cmake' to check CMake code style
+[35.465s] -- Added test 'xmllint' to check XML markup files
+[35.469s] -- Configuring done
+[35.516s] -- Generating done
+[35.527s] -- Build files have been written to: /home/leoni/robotica/practica3/build/interfaces
+[35.540s] Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leoni/robotica/practica3/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leoni/robotica/practica3/install/interfaces
+[35.542s] Invoking command in '/home/leoni/robotica/practica3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
+[35.585s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35.597s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35.602s] [  4%] Built target ament_cmake_python_symlink_interfaces
+[36.045s] [  4%] Built target interfaces__cpp
+[36.056s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[36.056s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.057s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[36.063s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/num__functions.c.o[0m
+[36.063s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/add_two_ints__functions.c.o[0m
+[36.065s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o[0m
+[36.090s] In file included from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__functions.h:19[m[K,
+[36.091s]                  from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c:4[m[K:
+[36.091s] [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_c/interfaces/msg/detail/sphere__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msg/msg/detail/point__struct.h: No such file or directory
+[36.091s]    22 | #include [01;31m[K"geometry_msg/msg/detail/point__struct.h"[m[K
+[36.091s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.091s] compilation terminated.
+[36.091s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_generator_c.dir/build.make:211: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sphere__functions.c.o] Error 1
+[36.091s] gmake[2]: *** Waiting for unfinished jobs....
+[36.160s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/interfaces__rosidl_generator_c.dir/all] Error 2
+[36.160s] gmake[1]: *** Waiting for unfinished jobs....
+[36.194s] running egg_info
+[36.195s] creating interfaces.egg-info
+[36.196s] writing interfaces.egg-info/PKG-INFO
+[36.197s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[36.198s] writing top-level names to interfaces.egg-info/top_level.txt
+[36.198s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[36.202s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[36.203s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[36.233s] [ 17%] Built target ament_cmake_python_build_interfaces_egg
+[36.517s] [ 19%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/num__type_support.cpp.o[0m
+[36.519s] [ 21%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[36.523s] [ 23%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o[0m
+[36.662s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[36.663s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/num__type_support.cpp.o[0m
+[36.665s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/add_two_ints__type_support.cpp.o[0m
+[36.719s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[36.720s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[36.720s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[36.752s] In file included from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp:7[m[K:
+[36.752s] [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory
+[36.752s]    20 | #include [01;31m[K"geometry_msg/msg/detail/point__struct.hpp"[m[K
+[36.753s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.753s] compilation terminated.
+[36.754s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make:168: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sphere__type_support.cpp.o] Error 1
+[36.754s] gmake[2]: *** Waiting for unfinished jobs....
+[36.783s] In file included from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp:12[m[K:
+[36.783s] [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory
+[36.783s]    20 | #include [01;31m[K"geometry_msg/msg/detail/point__struct.hpp"[m[K
+[36.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.784s] compilation terminated.
+[36.786s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:179: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sphere__type_support.cpp.o] Error 1
+[36.786s] gmake[2]: *** Waiting for unfinished jobs....
+[36.805s] In file included from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[36.805s]                  from [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp:4[m[K:
+[36.805s] [01m[K/home/leoni/robotica/practica3/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/sphere__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msg/msg/detail/point__struct.hpp: No such file or directory
+[36.805s]    20 | #include [01;31m[K"geometry_msg/msg/detail/point__struct.hpp"[m[K
+[36.806s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.806s] compilation terminated.
+[36.807s] gmake[2]: *** [CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:179: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o] Error 1
+[36.807s] gmake[2]: *** Waiting for unfinished jobs....
+[37.097s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[37.198s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[37.234s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[37.235s] gmake: *** [Makefile:146: all] Error 2
+[37.237s] Invoked command in '/home/leoni/robotica/practica3/build/interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leoni/robotica/practica3/build/interfaces -- -j16 -l16
